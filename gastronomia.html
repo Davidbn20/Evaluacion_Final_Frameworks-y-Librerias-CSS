@@ -8,49 +8,188 @@
     <link rel="stylesheet" href="foundation-icons/foundation-icons.css">
   </head>
   <body>
-    <div class="row" style="height: 100px;">
-      <div class="column medium-4">
-
+    <div class="row fondo">
+      <div class="columns medium-12 small-12">
+        <div class="row">
+          <div class="column medium-4 hide-for-small-only show-for landscape">
+            <h1 class="titulo">El Menú Mundial</h1>
+            <h5 class="slogan"><em>Búscalo y saboréalo</em></h5>
+          </div>
+          <div class="columns medium-8"></div>
+        </div>
       </div>
-      <div class="columns medium-8">
-
+      <div class="column medium-12">
+        <div class="row">
+          <div class="column large-4 medium-4 small-12 hide-for-small-only show-for-medium">
+            <div class="column fondo1">
+              <form>
+                <div class="row column">
+                  <div class="column large-12 medium-12 small-12">
+                    <div class="input-group barra-busqueda">
+                      <input style="width: 220px; height: 45px;" size="32">
+                      <div class="input-group-button">
+                        <button type="submit" name="enviar" class="button"><i class="step fi-magnifying-glass"></i></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+              <div class="row column">
+                <div class="column boton">
+                  <button type="button" class="button hollow text-center" style="width:270px">Inicio</button>
+                </div>
+                <div class="column boton">
+                  <button type="button" class="button hollow text-center" style="width:270px">Mi plato perfecto</button>
+                </div>
+                <div class="column boton">
+                  <button type="button" class="button hollow text-center" style="width:270px">Mis recetas</button>
+                </div>
+              </div>
+              <div class="column large-uncollapse">
+                <h3 style="color: #E0E326;">Historial</h3>
+                <div class="row large-uncollapse">
+                  <div class="columns medium-4">
+                    <div class="text-center">
+                      <a href="#"><img src="img/entrada1.jpg" class="thumbnail imagen1"></a>
+                    </div>
+                  </div>
+                  <div class="columns medium-4">
+                    <div class="text-center">
+                      <a href="#"><img src="img/fuerte1.jpg" class="thumbnail imagen2"></a>
+                    </div>
+                  </div>
+                  <div class="columns medium-4">
+                    <div class="text-center">
+                      <a href="#"><img src="img/helado1.jpg" class="thumbnail imagen3"></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="row large-uncollapse">
+                  <div class="columns medium-4">
+                    <div class="text-center">
+                      <a href="#"><img src="img/entrada2.jpg" class="thumbnail imagen4"></a>
+                    </div>
+                  </div>
+                  <div class="columns medium-4">
+                    <div class="text-center">
+                      <a href="#"><img src="img/fuerte2.jpg" class="thumbnail imagen5"></a>
+                    </div>
+                  </div>
+                  <div class="columns medium-4">
+                    <div class="text-center">
+                      <a href="#"><img src="img/helado2.jpg" class="thumbnail imagen6"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="column">
+                <h3 style="color: #E0E326;">Favoritos</h3>
+                <div class="contenido-favoritos" aria-hidden="true">
+                  <p>
+                    <a href="#">Milcao</a>
+                  </p>
+                  <p>
+                    <a href="#">Chapalele</a>
+                  </p>
+                  <p>
+                    <a href="#">Chancho en Piedra</a>
+                  </p>
+                  <p>
+                    <a href="#">Empanadas de Queso</a>
+                  </p>
+                  <p>
+                    <a href="#">Crema de Espárragos</a>
+                  </p>
+                  <p>
+                    <a href="#">Torta de Bizcocho, Chocolate y Manjar</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="columns large-8 medium-6 small-12 small-order-2">
+            <div class="columns fondo2">
+              <h2>Natural Jakes</h2>
+              <p style="color: #E0E326;">20 de Noviembre 2017</p>
+              <div class="callout primary text-center">
+                <img src="img/comida1.jpg" style="width: 600px; height:250px;">
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <div class="row">
+                <div class="column large-12 medium-12 small-12">
+                  <label for="text">Escribe un comentario:</label>
+                  <textarea name="text" rows="3" cols="80" id="text"></textarea>
+                </div>
+                <div class="column text-right">
+                  <button type="button" class="button text-center"><i class="step fi-pencil"></i>Publicar</button>
+                </div>
+              </div>
+              <div class="contenedor-comentario small-12">
+                <div class="row">
+                  <div class="column large-2 medium-2 small-4">
+                    <img src="img/mujer.png" class="usuario">
+                  </div>
+                  <div class="column large-10 medium-10 small-8">
+                    <p class="comentario-texto"><strong>MariaC25:</strong> Lorem ipsum dolor sit amet</p>
+                  </div>
+                </div>
+              </div>
+              <div class="contenedor-comentario small-12">
+                <div class="row">
+                  <div class="column large-2 medium-2 small-4">
+                    <img src="img/men.png" class="usuario">
+                  </div>
+                  <div class="column medium-10 small-8">
+                    <p class="comentario-texto"><strong>Paco3Rt:</strong> Lorem ipsum dolor sit amet</p>
+                  </div>
+                </div>
+              </div>
+              <div class="contenedor-comentario small-12">
+                <div class="row">
+                  <div class="column large-2 medium-2 small-4">
+                    <img src="img/mujer.png" class="usuario">
+                  </div>
+                  <div class="column large-10 medium-10 small-8">
+                    <p class="comentario-texto"><strong>RossEB:</strong> Lorem ipsum dolor sit amet</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="columns fondo2">
+              <h2>Kiwilimón</h2>
+              <p style="color: #E0E326;">4 de Marzo 2018</p>
+              <div class="callout primary text-center">
+                <img src="img/comida2.jpg" style="width: 600px; height:250px;">
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <div class="row">
+                <div class="column large-12 medium-12 small-12">
+                  <label for="text">Escribe un comentario:</label>
+                  <textarea name="text" rows="3" cols="80" id="text"></textarea>
+                </div>
+                <div class="column text-right">
+                  <button type="button" class="button text-center"><i class="step fi-pencil"></i>Publicar</button>
+                </div>
+              </div>
+              <div class="contenedor-comentario small-12">
+                <div class="row">
+                  <div class="column large-2 medium-2 small-4">
+                    <img src="img/men.png" class="usuario">
+                  </div>
+                  <div class="column large-10 medium-10 small-8">
+                    <p class="comentario-texto"><strong>SamCB15:</strong> Lorem ipsum dolor sit amet</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="row" style="height: 1000px;">
-      <div class="column medium-4">
-        <div class="column" style="height: 50px;">
 
-        </div>
-        <div class="column" style="height: 50px;">
-
-        </div>
-        <div class="column" style="height: 50px;">
-
-        </div>
-        <div class="column" style="height: 50px;">
-
-        </div>
-        <div class="column" style="height: 50px;">
-
-        </div>
-        <div class="column" style="height: 250px;">
-
-        </div>
-        <div class="column" style="height: 50px;">
-
-        </div>
-        <div class="column" style="height: 440px;">
-
-        </div>
-      </div>
-      <div class="columns medium-8">
-        <div class="columns" style="height: 500px;">
-
-        </div>
-        <div class="columns" style="height: 490px;">
-
-        </div>
-      </div>
-    </div>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
   </body>
 </html>
